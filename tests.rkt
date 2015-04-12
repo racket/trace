@@ -1,5 +1,7 @@
 #lang racket/load
 
+(current-error-port (current-output-port))
+
 (require trace)
 
 (define (f x) (+ x 1))
