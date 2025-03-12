@@ -6,12 +6,10 @@
 
 (define deps '("scheme-lib"
                "base"
-               "compatibility-lib"
-               ))
-(define build-deps '("scribble-lib"
-                     "racket-doc"))
+               "compatibility-lib"))
+(define build-deps '())
 
-(define pkg-desc "Instrumentation to show function calls")
+(define pkg-desc "implementation (no documentation) part of \"trace\"")
 
 (define pkg-authors '(mflatt robby))
 
